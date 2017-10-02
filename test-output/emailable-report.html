@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite1</th></tr>
+<tr><td><a href="#t0">Test_Frenzy</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">1</td><td class="num">367.141</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test_Frenzy &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Package_1.Test_Frenzy</td><td><a href="#m0">QueEsFrenzy</a></td><td rowspan="1">1506461085351</td><td rowspan="1">31927</td></tr><tr><th colspan="4">Test_Frenzy &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">Package_1.Test_Frenzy</td><td><a href="#m1">AbrirNavegador</a></td><td rowspan="1">1506460912042</td><td rowspan="1">5463</td></tr><tr class="passedeven"><td><a href="#m2">Bits</a></td><td rowspan="1">1506461117290</td><td rowspan="1">147637</td></tr><tr class="passedeven"><td><a href="#m3">Buttons_PlayStore_and_AppStore</a></td><td rowspan="1">1506461270366</td><td rowspan="1">8797</td></tr><tr class="passedeven"><td><a href="#m4">Categorias</a></td><td rowspan="1">1506460942358</td><td rowspan="1">142991</td></tr><tr class="passedeven"><td><a href="#m5">Login</a></td><td rowspan="1">1506460917507</td><td rowspan="1">3995</td></tr><tr class="passedeven"><td><a href="#m6">Navbar</a></td><td rowspan="1">1506460921503</td><td rowspan="1">13536</td></tr><tr class="passedeven"><td><a href="#m7">Premios</a></td><td rowspan="1">1506461264929</td><td rowspan="1">5436</td></tr><tr class="passedeven"><td><a href="#m8">buttonsHome</a></td><td rowspan="1">1506460935040</td><td rowspan="1">7317</td></tr></tbody>
+</table>
+<h2>Test_Frenzy</h2><h3 id="m0">Package_1.Test_Frenzy#QueEsFrenzy</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //IMG[@class=&apos;imgVideoButton&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at Package_1.Test_Frenzy.QueEsFrenzy(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //IMG[@class=&apos;imgVideoButton&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;COGNITS-1&apos;, ip: &apos;192.168.50.37&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 26 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Package_1.Test_Frenzy#AbrirNavegador</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Package_1.Test_Frenzy#Bits</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Package_1.Test_Frenzy#Buttons_PlayStore_and_AppStore</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Package_1.Test_Frenzy#Categorias</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Package_1.Test_Frenzy#Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Package_1.Test_Frenzy#Navbar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Package_1.Test_Frenzy#Premios</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Package_1.Test_Frenzy#buttonsHome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

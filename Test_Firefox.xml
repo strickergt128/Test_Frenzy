@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite2">
+  <test name="Test_Frenzy_Firefox" >
+    <classes>
+       <class name="Package_1.Test_Frenzy_Firefox" >
+       	<methods>
+        	<include name="AbrirNavegador" />
+        	<include name="Login" />
+        	<include name="Navbar" />
+        	<include name="buttonsHome" />
+        	<include name="Categorias" />
+        	<include name="QueEsFrenzy" />
+        	<include name="Bits" />
+        	<include name="Premios" />
+        	<include name="Buttons_PlayStore_and_AppStore" />
+      	</methods>
+      </class>
+    </classes>
+  </test>
+</suite>
